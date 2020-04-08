@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/test"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".CountryFragmentsActivity">
+    android:orientation="horizontal"
+    android:baselineAligned="false">
 
     <fragment
         android:id="@+id/list"
         android:name="edu.uga.cs.countrylistfragments.CountryListFragment"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/countryentry"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        tools:layout="@layout/activity_country_fragments" />
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+    </FrameLayout>
+
 </LinearLayout>

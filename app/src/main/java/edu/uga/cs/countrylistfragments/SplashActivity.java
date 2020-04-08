@@ -7,6 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ *
+ * The first activity of the application. Displays instructions on how to use the app, and a button that leads to
+ * the next page of the app.
+ *
+ * @author Truc Mai
+ */
 public class SplashActivity extends AppCompatActivity {
 
     private Button start;

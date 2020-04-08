@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Country List Fragments</string>
+    <string name="country_prompt">Click start to begin. After, you will be shown a list of countries to choose from. By clicking on one of the countries, you will be shown general information of the country and information that may be useful to tourists. (Most information was taken from Wikipedia and touropia.)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

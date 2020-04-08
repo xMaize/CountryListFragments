@@ -7,4 +7,11 @@
         <item>Austria</item>
         <item>New Zealand</item>
     </string-array>
+    <string-array name="country_details">
+        <item>Japan</item>
+        <item>Vietnam</item>
+        <item>Germany</item>
+        <item>Austria</item>
+        <item>New Zealand</item>
+    </string-array>
 </resources>
